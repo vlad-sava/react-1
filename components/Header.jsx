@@ -16,7 +16,7 @@ const Header = () => {
                 href="/"
                 className="relative w-[100px] h-[40px] xl:w-[120px] xl:h-[40px] z-[60]">
                 <Image 
-                    src="assets/logo.svg" 
+                    src="/assets/logo.svg" 
                     fill 
                     alt="" 
                     className="object-contain"

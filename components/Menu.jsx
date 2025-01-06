@@ -78,13 +78,14 @@ const Menu = () => {
               place-content-center">
                 {menuItems.map((item, index) => {
                     const {name, description, price, imgSrc } = item;
-                    return <MenuItem 
+                    return ( <MenuItem 
                     name={name}
                     description={description}
                     price={price}
                     imgSrc={imgSrc}
                     key={index}
-                    />;
+                    />
+                    )
                 })}
 
               </div>

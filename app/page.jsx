@@ -31,7 +31,6 @@ const Home = () => {
     <OpeningHours />
     <Testimonials />
     {/* temporary div */}
-    <div className="h-[4000px]"></div>
     </div>
   );
 };

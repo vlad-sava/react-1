@@ -41,7 +41,7 @@ const About = () => {
                     trigger: scrollTriggerRef.current,
                     start: "top top",
                     end: "1800vw top",
-                    scrup: 0.6,
+                    scrub: 0.6,
                     pin: true,
                 }
             }
@@ -63,7 +63,8 @@ const About = () => {
         > 
             {data.map((item, index)=> {
                 return (
-                    <div key={index} className="w-screen h-screen flex flex-col justify-center
+                    <div key={index} 
+                    className="w-screen h-screen flex flex-col justify-center
                     items-center relative">
                         <div className="container mx-auto">
                             <div className="flex gap-[30px] relative">
